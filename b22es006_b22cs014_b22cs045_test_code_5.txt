@@ -1,0 +1,15 @@
+.data
+    n: .word 11      
+.text
+    la $t0, n         
+    lw $t1, 0($t0)     
+    li $t2, 1          
+    li $t3, 0 
+    jal loop         
+loop:
+    beq $t2, $t1, end  
+    add $t3, $t3, $t2  
+    addi $t2, $t2, 1   
+    j loop            
+
+end:

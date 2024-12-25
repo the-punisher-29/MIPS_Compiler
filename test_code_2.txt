@@ -1,0 +1,13 @@
+.data
+    num1: .word 10
+    num2: .word 20
+.text
+    la $t0, num1
+    la $t2, num2
+    lw $t1, 0($t0)      
+    lw $t3, 0($t2)   
+    add $t4, $t1, $t3  
+    sub $t5, $t3, $t1   
+    and $t6, $t1, $t3   
+    or  $t7, $t1, $t3   
+    slt $t8, $t1, $t3   

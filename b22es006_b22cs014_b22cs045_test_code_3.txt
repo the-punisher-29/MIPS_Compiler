@@ -1,0 +1,26 @@
+.data
+    num1: .word 1
+    num2: .word 2
+    num3: .word 3
+    num4: .word 4
+    num5: .word 5
+    sum: .word 0
+
+.text
+    la $t0, num1
+    lw $t1, 0($t0)
+    la $t0, num2
+    lw $t2, 0($t0)
+    la $t0, num3
+    lw $t3, 0($t0)
+    la $t0, num4
+    lw $t4, 0($t0) 
+    la $t0, num5
+    lw $t5, 0($t0)      
+    add $t6, $t1, $t2   
+    add $t6, $t6, $t3   
+    add $t6, $t6, $t4   
+    add $t6, $t6, $t5
+    la $t0, sum
+    lw $t7, 0($t0)  
+    add $t7, $t7, $t6   

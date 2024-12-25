@@ -1,0 +1,14 @@
+.data
+    mask1: .word 60
+    mask2: .word 50
+.text
+    la $t0, mask1
+    lw $t0, 0($t0)
+    la $t1, mask2
+    lw $t1, 0($t1)
+    xor $t2, $t0, $t1
+    nor $t3, $t0, $t1
+    andi $t4, $t0, 10
+    ori $t5, $t1, 20
+    sll $t6, $t0, 4
+    srl $t7, $t1, 4
