@@ -1,4 +1,4 @@
-# MIPS Compiler Project
+# MIPS Compiler Project(Computer Architecture)
 
 ## Overview
 This project involves the development and successful completion of a simulation of a MIPS processor. The main objectives achieved were:
@@ -152,5 +152,5 @@ This project successfully demonstrates the implementation of a MIPS Compiler and
 ---
 
 ## Acknowledgments
-This project is part of the CSL3020 course at [Your University/Institution]. It was developed to enhance understanding of MIPS architecture and its practical simulation.
+This project is part of the CSL3020 course at IIT Jodhpur. It was developed to enhance understanding of MIPS architecture and its practical simulation.
 
